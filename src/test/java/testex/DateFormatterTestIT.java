@@ -13,7 +13,7 @@ import static org.junit.Assert.*;
 /**
  * Created by lucas on 10-03-2017.
  */
-public class DateFormatterTest {
+public class DateFormatterTestIT {
 
     DateFormatter dateFormatter;
     @Before
