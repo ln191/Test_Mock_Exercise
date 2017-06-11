@@ -8,12 +8,11 @@ import org.mockito.Mock;
 
 import java.util.List;
 
-import static org.codehaus.groovy.runtime.DefaultGroovyMethods.each;
+
 import static org.hamcrest.CoreMatchers.hasItems;
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.hamcrest.CoreMatchers.isA;
 import static org.hamcrest.Matchers.hasSize;
-import static org.hamcrest.Matchers.typeCompatibleWith;
 import static org.junit.Assert.*;
 
 /**
