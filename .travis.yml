@@ -7,6 +7,6 @@ cache:
    - $HOME/.m2
  
 script:
-  - mvn verify
+  - mvn clean verify
 
   
