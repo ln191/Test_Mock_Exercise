@@ -27,7 +27,7 @@ public class DateFormatterTest {
         Date testDate = new Date(30);
 
         String res = dateFormatter.getFormattedDate("Europe/Copenhagen",testDate);
-       assertThat(res, is("01 jan. 1970 01:00 AM" ));
+       assertThat(res, is("01 Jan 1970 01:00 AM" ));
     }
     @Test(expected = JokeException.class)
     public void getFormattedDateException() throws Exception {
